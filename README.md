@@ -16,7 +16,7 @@ No. End-to-end testing is a way for developers to automate test cases that invol
 
 3) What is the difference between navigation and snapshot mode?
    
- Navigation mode analyzes the page right after it loads, whereas snapshot mode analyzes the page in its current state.
+Navigation mode analyzes the page right after it loads, whereas snapshot mode analyzes the page in its current state. We can use navigation mode as a performance metric and snapshot mode to find accessibility issues.
    
 4) Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.
 
