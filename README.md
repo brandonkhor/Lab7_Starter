@@ -20,9 +20,9 @@ Navigation mode analyzes the page right after it loads, whereas snapshot mode an
    
 4) Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.
 
-* Minifying CSS and Javascript files to reduce network payload sizes
-* Enable text compression to minimize total network bytes
-* Consider marking your touch and wheel event listeners as passive to improve your page's scroll performance
+* Properly size images. Serve images that are appropriately-sized to save cellular data and improve load time.
+* `<html>` element does not have a `[lang]` attribute. If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly
+* No `<meta name="viewport">` tag found. A `<meta name="viewport">` not only optimizes your app for mobile screen sizes, but also prevents a 300 millisecond delay to user input.
 
 
 
